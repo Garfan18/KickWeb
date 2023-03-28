@@ -699,7 +699,7 @@ img {
 
 .HomeBackground {
     padding-top: 2000px;
-    background-image: url(/Projekt/AnnaSaladin_Sprint2/Bilder/Home_Bild1.png);
+    background-image: url(../Bilder/Home_Bild1.png);
     background-color: black;
 
     background-position: center;
