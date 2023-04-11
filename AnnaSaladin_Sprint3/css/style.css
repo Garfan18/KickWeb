@@ -1,0 +1,810 @@
+/*  ---------------------------------------------------------------------------- */
+
+/*  GENERAL    */
+
+/*  ---------------------------------------------------------------------------- */
+
+body {
+    background-color: #E8E8E8;
+    cursor: none;
+    margin: 0
+}
+
+body * {
+    cursor: inherit;
+
+}
+
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  FONTS    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@import url("https://use.typekit.net/btb6tux.css");
+
+/*@font-face {
+    font-family: "aria-text-g2";
+    src: url("https://use.typekit.net/yck0ykp.css");
+}*/
+
+@font-face {
+    font-family: "Frutiger-Bold";
+    src: url(Font/FrutigerLTCom-Black.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Frutiger-Roman";
+    src: url(Font/FrutigerLTCom-Roman.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Frutiger-Light";
+    src: url(Font/FrutigerLTCom-Light.woff2) format(woff2);
+}
+
+
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  COLORS    */
+
+/*  ---------------------------------------------------------------------------- */
+
+.black {
+    color: black;
+}
+
+.grey {
+    color: #7B7B7B;
+}
+
+.white {
+    color: #E8E8E8;
+}
+
+.gold {
+    color: #BEB46F;
+}
+
+.red {
+    color: #BC9075;
+}
+
+.blue {
+    color: #7193A5;
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  SCHRIFTEN MOBILE    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 0em) {
+
+    /*title*/
+    h1 {
+        font-family: "aria-text-g2";
+        font-size: 30px;
+        letter-spacing: 3px;
+        color: #BEB46F;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        line-height: 33px;
+        padding: 5px;
+    }
+
+    /*untertitle*/
+    h2 {
+        font-family: "Fort";
+        font-size: 20px;
+        font-weight: lighter;
+        font-style: normal;
+        color: black;
+        line-height: 23px;
+
+    }
+
+    /*zitat*/
+    h3 {
+        font-family: "aria-text-g2";
+        font-size: 20px;
+        font-weight: normal;
+        text-align: justify;
+        color: black;
+
+    }
+
+    /*lauftext*/
+    h4 {
+        font-family: "fort", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: justify;
+        color: black;
+        padding: 5px;
+        line-height: 16px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    /*Bildunterschrift*/
+    h5 {
+        font-family: "Frutiger-Light";
+        font-size: 12px;
+        text-align: right;
+        color: black;
+    }
+
+    p {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .titelAbstand {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+}
+
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  SCHRIFTEN TABLET    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em) {
+
+    /*title*/
+    h1 {
+        font-family: "aria-text-g2";
+        font-size: 40px;
+        letter-spacing: 5px;
+        color: #BEB46F;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        line-height: 43px;
+    }
+
+    /*untertitle*/
+    h2 {
+        font-family: "Fort";
+        font-size: 25px;
+        font-weight: lighter;
+        font-style: normal;
+        color: black;
+        line-height: 28px;
+    }
+
+    /*zitat*/
+    h3 {
+        font-family: "aria-text-g2";
+        font-size: 20px;
+        font-weight: normal;
+        text-align: justify;
+        color: black;
+    }
+
+    /*lauftext*/
+    h4 {
+        font-family: "fort", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: justify;
+        color: black;
+        padding: 5px;
+        line-height: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /*Bildunterschrift*/
+    h5 {
+        font-family: "Frutiger-Roman";
+        font-size: 11px;
+        text-align: right;
+        color: black;
+    }
+
+    p {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .titelAbstand {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  SCHRIFTEN DESKTOP    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 64em) {
+
+    /*title*/
+    h1 {
+        font-family: "aria-text-g2";
+        font-size: 90px;
+        letter-spacing: 5px;
+        color: #BEB46F;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        line-height: 93px;
+    }
+
+    /*untertitle*/
+    h2 {
+        font-family: "Fort";
+        font-size: 35px;
+        font-weight: lighter;
+        font-style: normal;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 38px;
+    }
+
+    /*zitat*/
+    h3 {
+        font-family: "aria-text-g2";
+        font-size: 25px;
+        font-weight: normal;
+        text-align: justify;
+        color: black;
+    }
+
+    /*lauftext*/
+    h4 {
+        font-family: "fort", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: justify;
+        color: black;
+        padding: 5px;
+        line-height: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /*Bildunterschrift*/
+    h5 {
+        font-family: "Frutiger-Bold";
+        font-size: 10px;
+        text-align: right;
+        color: black;
+    }
+
+    p {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .titelAbstand {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  MENUE GLOBAL    */
+
+/*  ---------------------------------------------------------------------------- */
+
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+#hamnav {
+    width: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+}
+
+/* (B) HORIZONTAL MENU ITEMS */
+#hamitems {
+    display: flex;
+}
+
+#hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hamitems a:hover {
+    background: #BEB46F;
+}
+
+/* (C) HIDE HAMBURGER */
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+.active {
+    background-color: #BEB46F;
+    color: black;
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  MENUE MOBILE    */
+
+/*  ---------------------------------------------------------------------------- */
+
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 40em) {
+
+    /* (A) BREAK INTO VERTICAL MENU */
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+        text-decoration: none;
+    }
+
+    #hamitems a:hover {
+        background: #BEB46F;
+    }
+
+    /* (B) SHOW HAMBURGER ICON */
+    #hamnav label {
+        display: inline-block;
+        color: black;
+        background: #BEB46F;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #hamitems {
+        display: none;
+    }
+
+    #hamnav input:checked~#hamitems {
+        display: block;
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  GRID MOBILE    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 0em) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, [col-start] 1fr);
+        grid-template-rows: repeat(30, [row-start] 0, 5fr);
+        gap: 5px;
+        padding-top: 35px;
+    }
+
+    /*  LEFT ITEMS    */
+
+    .itemleft1 {
+        grid-column: col-start 1 / span 12;
+        grid-row: row-start 1 / span 20;
+
+    }
+
+    .itemleft2 {
+        grid-column: col-start 1 / span 12;
+        grid-row: row-start 35 / span 12;
+
+    }
+
+    .itemleft3 {
+        grid-column: col-start 1 / span 5;
+        grid-row: row-start 30 / span 5;
+
+    }
+
+    .itemleft4 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 2 / span 2;
+    }
+
+    .itemleft5 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 4 / span 4;
+    }
+
+    /*  RIGHT ITEMS    */
+
+    .itemright1 {
+        grid-column: col-start 1 / span 8;
+        grid-row: row-start 21 / span 1;
+
+    }
+
+    .itemright2 {
+        grid-column: col-start 1 / span 12;
+        grid-row: row-start 23 / span 7;
+    }
+
+    .itemright3 {
+        grid-column: col-start 6 / span 7;
+        grid-row: row-start 30 / span 5;
+    }
+
+    .itemright4 {
+        grid-column: col-start 7 / span 5;
+        grid-row: row-start 1 / span 3;
+    }
+
+    /*  LEFT EDGE    */
+
+    .itemleftedge1 {
+        grid-column: col-start 1 / span 1;
+        grid-row: row-start 1 / span 1;
+    }
+
+    /*  RIGHT EDGE    */
+
+    .itemrightedge1 {
+        grid-column: col-start 9 / span 4;
+        grid-row: row-start 21 / span 1;
+    }
+
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  GRID TABLET    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, [col-start] 1fr);
+        grid-template-rows: repeat(30, [row-start] 0, 5fr);
+        gap: 5px;
+        padding-top: 40px;
+    }
+
+    /*  LEFT ITEMS    */
+
+    .itemleft1 {
+        grid-column: col-start 1 / span 5;
+        grid-row: row-start 1 / span 2;
+    }
+
+    .itemleft2 {
+        grid-column: col-start 1 / span 5;
+        grid-row: row-start 3 / span 10;
+    }
+
+    .itemleft3 {
+        grid-column: col-start 1 / span 5;
+        grid-row: row-start 14 / span 5;
+    }
+
+    .itemleft4 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 2 / span 2;
+    }
+
+    .itemleft5 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 4 / span 4;
+    }
+
+    /*  RIGHT ITEMS    */
+
+    .itemright1 {
+        grid-column: col-start 6 / span 5;
+        grid-row: row-start 1 / span 1;
+    }
+
+    .itemright2 {
+        grid-column: col-start 6 / span 5;
+        grid-row: row-start 2 / span 4;
+    }
+
+    .itemright3 {
+        grid-column: col-start 6 / span 5;
+        grid-row: row-start 6 / span 5;
+    }
+
+    .itemright4 {
+        grid-column: col-start 7 / span 5;
+        grid-row: row-start 1 / span 3;
+    }
+
+    /*  LEFT EDGE    */
+
+    .itemleftedge1 {
+        grid-column: col-start 1 / span 1;
+        grid-row: row-start 1 / span 1;
+    }
+
+    /*  RIGHT EDGE    */
+
+    .itemrightedge1 {
+        grid-column: col-start 11 / span 2;
+        grid-row: row-start 1 / span 1;
+    }
+
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  GRID DESKTOP    */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 64em) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, [col-start] 1fr);
+        grid-template-rows: repeat(30, [row-start] 1fr);
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    /*  LEFT ITEMS    */
+
+    .itemleft1 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 1 / span 5;
+    }
+
+    .itemleft2 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 6 / span 6;
+    }
+
+    .itemleft3 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 12 / span 7;
+    }
+
+    .itemleft4 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 2 / span 2;
+    }
+
+    .itemleft5 {
+        grid-column: col-start 2 / span 5;
+        grid-row: row-start 4 / span 4;
+    }
+
+    /*  RIGHT ITEMS    */
+
+    .itemright1 {
+        grid-column: col-start 7 / span 5;
+        grid-row: row-start 1 / span 3;
+    }
+
+    .itemright2 {
+        grid-column: col-start 7 / span 5;
+        grid-row: row-start 3 / span 4;
+    }
+
+    .itemright3 {
+        grid-column: col-start 7 / span 5;
+        grid-row: row-start 7 / span 5;
+
+    }
+
+    .itemright4 {
+        grid-column: col-start 7 / span 5;
+        grid-row: row-start 1 / span 3;
+    }
+
+    /*  LEFT EDGE    */
+
+    .itemleftedge1 {
+        grid-column: col-start 1 / span 1;
+        grid-row: row-start 1 / span 1;
+    }
+
+    /*  RIGHT EDGE    */
+
+    .itemrightedge1 {
+        grid-column: col-start 12 / span 1;
+        grid-row: row-start 1 / span 1;
+    }
+
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  IMAGES   */
+
+/*  ---------------------------------------------------------------------------- */
+
+img {
+    width: 100%;
+
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  START LAUFTEXT MOBILE   */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 0em) {
+    .circle {
+        background-color: black;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 1px;
+        box-shadow: 0px 0px 10px 5px #BC9075;
+    }
+
+    .circle-inner {
+        color: #E8E8E8;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        height: 70px;
+        width: 70px;
+        font-size: 35px;
+        font-weight: 600;
+        font-family: "Fort";
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  START LAUFTEXT TABLET   */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em) {
+    .circle {
+        background-color: black;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 1px;
+        box-shadow: 0px 0px 10px 5px #BC9075;
+    }
+
+    .circle-inner {
+        color: #E8E8E8;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "Fort";
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  START LAUFTEXT DESKTOP   */
+
+/*  ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 64em) {
+    .circle {
+
+        background-color: black;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 10px 5px #BC9075;
+    }
+
+    .circle-inner {
+        color: #E8E8E8;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        height: 100px;
+        width: 100px;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: "Fort";
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  HOME BACKGROUND  */
+
+/*  ---------------------------------------------------------------------------- */
+
+.hero-text {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #BEB46F;
+
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-family: "aria-text-g2";
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end 8;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: transparent
+    }
+}
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  MOUSE TEST  */
+
+/*  ---------------------------------------------------------------------------- */
+
+#cursor {
+    position: absolute;
+    left: -28px;
+    top: -34px;
+    will-change: transform;
+    transform: translate(-999px, -999px);
+    pointer-events: none;
+}
+
+#cursor img {
+    will-change: transform;
+    transition: transform 0.1s linear;
+}
