@@ -120,15 +120,15 @@ body * {
     /*lauftext*/
     h4 {
         font-family: "fort", sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
         font-style: normal;
         text-align: justify;
         color: black;
         padding: 5px;
-        line-height: 16px;
-        margin-top: 2px;
-        margin-bottom: 2px;
+        line-height: 19px;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 
     /*Bildunterschrift*/
@@ -140,8 +140,8 @@ body * {
     }
 
     p {
-        margin-top: 4px;
-        margin-bottom: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .titelAbstand {
@@ -192,13 +192,13 @@ body * {
     /*lauftext*/
     h4 {
         font-family: "fort", sans-serif;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 400;
         font-style: normal;
         text-align: justify;
         color: black;
         padding: 5px;
-        line-height: 15px;
+        line-height: 18px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -212,8 +212,8 @@ body * {
     }
 
     p {
-        margin-top: 7px;
-        margin-bottom: 7px;
+        margin-top: 9px;
+        margin-bottom: 9px;
     }
 
     .titelAbstand {
@@ -265,13 +265,13 @@ body * {
     /*lauftext*/
     h4 {
         font-family: "fort", sans-serif;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 400;
         font-style: normal;
         text-align: justify;
         color: black;
         padding: 5px;
-        line-height: 18px;
+        line-height: 21px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -572,12 +572,12 @@ body * {
 
     .itemleft2 {
         grid-column: col-start 2 / span 5;
-        grid-row: row-start 6 / span 6;
+        grid-row: row-start 5 / span 6;
     }
 
     .itemleft3 {
         grid-column: col-start 2 / span 5;
-        grid-row: row-start 12 / span 7;
+        grid-row: row-start 11 / span 7;
     }
 
     .itemleft4 {
