@@ -94,6 +94,7 @@ body * {
         margin-bottom: 1px;
         line-height: 33px;
         padding: 5px;
+        margin-left: 5px;
     }
 
     /*untertitle*/
@@ -104,7 +105,7 @@ body * {
         font-style: normal;
         color: black;
         line-height: 23px;
-
+        margin-left: 5px;
     }
 
     /*zitat*/
@@ -129,6 +130,8 @@ body * {
         line-height: 19px;
         margin-top: 3px;
         margin-bottom: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     /*Bildunterschrift*/
@@ -558,9 +561,9 @@ body * {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(12, [col-start] 1fr);
-        grid-template-rows: repeat(30, [row-start] 1fr);
+        grid-template-rows: repeat(16, [row-start] 1fr);
         gap: 20px;
-        padding-top: 50px;
+        padding-top: 48px;
     }
 
     /*  LEFT ITEMS    */
@@ -733,7 +736,7 @@ img {
 
 /*  ---------------------------------------------------------------------------- */
 
-/*  HOME BACKGROUND  */
+/*  HOME SCREEN */
 
 /*  ---------------------------------------------------------------------------- */
 
@@ -761,7 +764,7 @@ img {
     letter-spacing: .15em;
     /* Adjust as needed */
     animation:
-        typing 3.5s steps(30, end),
+        typing 3.5s steps(100, end),
         blink-caret .5s step-end 8;
 }
 
